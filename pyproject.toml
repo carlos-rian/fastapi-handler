@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-handler"
+version = "0.1.0"
+description = ""
+authors = ["carlos-rian <crian.rian@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
